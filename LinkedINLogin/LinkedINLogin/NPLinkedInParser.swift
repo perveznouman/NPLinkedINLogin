@@ -40,7 +40,7 @@ class NPLinkedInParser: NSObject {
     
     func getLinkedData() -> Void {
         
-        let linkedinHelper = LinkedinSwiftHelper(configuration: LinkedinSwiftConfiguration(clientId:"YOUR CLIENT ID", clientSecret: "YOUR CLIENT SECRET KEY", state: "YOU ADMIN KEY", permissions: ["r_basicprofile", "r_emailaddress"], redirectUrl: "YOUR REDIRECT URL"))
+        let linkedinHelper = LinkedinSwiftHelper(configuration: LinkedinSwiftConfiguration(clientId:"YOUR CLIENT ID", clientSecret: "YOUR CLIENT SECRET KEY", state: "YOUR ADMIN KEY", permissions: ["r_basicprofile", "r_emailaddress"], redirectUrl: "YOUR REDIRECT URL"))
         
         linkedinHelper.authorizeSuccess({ (token) in
             print(token)
