@@ -3,7 +3,7 @@
 //  LinkedINLogin
 //
 //  Created by NOUMAN PERVEZ on 16/01/18.
-//  Copyright © 2018 Ratheesh Mac Mini. All rights reserved.
+//  Copyright © 2018 NOUMAN PERVEZ. All rights reserved.
 //
 
 import UIKit
